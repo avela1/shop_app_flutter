@@ -296,7 +296,7 @@ class _AuthCardState extends State<AuthCard> {
                   ElevatedButton(
                     onPressed: _submit,
                     style: ElevatedButton.styleFrom(
-                        primary: Theme.of(context).colorScheme.primary,
+                        backgroundColor: Theme.of(context).colorScheme.primary,
                         padding: const EdgeInsets.symmetric(
                           vertical: 8,
                           horizontal: 30,
@@ -313,7 +313,7 @@ class _AuthCardState extends State<AuthCard> {
                 TextButton(
                   onPressed: _switchMode,
                   style: TextButton.styleFrom(
-                      primary: Theme.of(context).colorScheme.primary,
+                      foregroundColor: Theme.of(context).colorScheme.primary,
                       padding: const EdgeInsets.symmetric(
                           vertical: 4, horizontal: 30),
                       tapTargetSize: MaterialTapTargetSize.shrinkWrap),
